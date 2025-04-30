@@ -73,23 +73,13 @@ export const HeroSection = () => {
             className="flex justify-center md:justify-end items-center"
           >
             <div className="phone-horizontal-container scale-150">
-              {/* Phone frame with video */}
               <div className="phone-frame">
                 <div className="phone-screen">
-                  <video
-                    ref={videoRef}
-                    muted
-                    loop
-                    playsInline
-                    onLoadedData={handleVideoLoaded}
-                    className="video-content"
-                  >
-                    <source
-                      src="https://assets.mixkit.co/videos/preview/mixkit-trees-in-autumn-forest-with-sunshine-43822-large.mp4"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
+                  <img
+                    src="/images/phone.png"
+                    alt="Phone Screen"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
