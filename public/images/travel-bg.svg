@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F5F5F5"/>
+  
+  <!-- Hills -->
+  <path d="M0 400 C 200 300, 400 350, 600 300 C 700 250, 800 350, 800 400 L 800 600 L 0 600 Z" fill="#E8E8E8"/>
+  <path d="M0 450 C 150 350, 300 400, 500 350 C 650 300, 800 400, 800 450 L 800 600 L 0 600 Z" fill="#D8D8D8"/>
+  
+  <!-- Trees -->
+  <path d="M100 400 L 120 300 L 140 400 Z" fill="#5F635E"/>
+  <path d="M300 380 L 320 280 L 340 380 Z" fill="#5F635E"/>
+  <path d="M500 420 L 520 320 L 540 420 Z" fill="#5F635E"/>
+  <path d="M700 400 L 720 300 L 740 400 Z" fill="#5F635E"/>
+  
+  <!-- Clouds -->
+  <circle cx="150" cy="100" r="30" fill="#FFFFFF"/>
+  <circle cx="180" cy="100" r="40" fill="#FFFFFF"/>
+  <circle cx="220" cy="100" r="30" fill="#FFFFFF"/>
+  
+  <circle cx="400" cy="150" r="25" fill="#FFFFFF"/>
+  <circle cx="430" cy="150" r="35" fill="#FFFFFF"/>
+  <circle cx="470" cy="150" r="25" fill="#FFFFFF"/>
+  
+  <circle cx="600" cy="80" r="20" fill="#FFFFFF"/>
+  <circle cx="630" cy="80" r="30" fill="#FFFFFF"/>
+  <circle cx="670" cy="80" r="20" fill="#FFFFFF"/>
+</svg> 
