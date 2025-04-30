@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   title: "Quyền thừa kế của cá nhân sinh ra từ kĩ thuật Thụ tinh ống nghiệm IVF ở Việt Nam",
   description: "Tìm hiểu về quyền thừa kế của cá nhân sinh ra từ kĩ thuật Thụ tinh ống nghiệm IVF ở Việt Nam",
   icons: {
-    icon: '/icon',
+    icon: '/images/logo3.png',
   },
 };
 
