@@ -83,7 +83,7 @@ const QUESTIONS: Question[] = [
     correctAnswer: "Việc xác lập quan hệ cha con có thể vượt mốc 300 ngày kể từ ngày người cha mất"
   },
   {
-    question: "Trong vụ việc chị Kim Dung sinh con bằng tinh trùng của người chồng đã mất, vấn đề pháp lý lớn nhất khi khai sinh cho hai bé là:",
+    question: 'Trong vụ việc chị Kim Dung sinh con bằng tinh trùng của người chồng đã mất: vấn đề pháp lý lớn nhất khi khai sinh cho hai bé là:',
     options: [
       "Không có hồ sơ y tế chứng minh IVF",
       "Không có xác nhận từ cơ sở y tế",

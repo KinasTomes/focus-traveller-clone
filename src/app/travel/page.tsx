@@ -81,7 +81,15 @@ Vương quốc Anh:
 - Sai sót kỹ thuật (nhầm tinh trùng/phôi): pháp luật chưa có quy định xử lý cụ thể.
 - Mang thai hộ trái phép hoặc ly hôn: con sinh ra có nguy cơ không được công nhận về mặt pháp lý, ảnh hưởng đến quyền thừa kế.
 - Mâu thuẫn giữa Luật HNGĐ và Bộ luật Dân sự về quyền thừa kế của trẻ sinh sau khi cha qua đời, đặc biệt vượt mốc 300 ngày.
-- Pháp luật chưa làm rõ khái niệm "con ruột", "con đẻ", gây tranh cãi về quyền thừa kế của trẻ sinh từ IVF.`,
+- Pháp luật chưa làm rõ khái niệm "con ruột", "con đẻ", gây tranh cãi về quyền thừa kế của trẻ sinh từ IVF.
+
+Một vụ việc điển hình chứng minh tính bất cập của các quy định pháp luật hiện nay về xác định quan hệ cha mẹ - con và quyền thừa kế của cá nhân sinh ra bằng kỹ thuật hỗ trợ sinh sản IVF như sau. Ngày 09/12/2013, lần đầu tại Việt Nam, hai bé sinh đôi chào đời nhờ phương pháp thụ tinh trong ống nghiệm sử dụng tinh trùng của người cha đã qua đời ba năm trước. Mẹ là chị Kim Dung, 33 tuổi, ở Hoàng Mai, Hà Nội. Chồng chị mất do tai nạn giao thông khi con gái đầu mới 6 tháng tuổi. Sáu giờ sau khi anh mất, các bác sĩ đã lấy và bảo quản tinh trùng. Năm 2013, sau khi mãn tang, chị Dung quyết định thực hiện thụ tinh. Câu chuyện gây xúc động mạnh trong xã hội, thể hiện tình yêu và khát khao có con với người chồng đã khuất. Tuy nhiên, việc khai sinh cho hai bé gặp vướng mắc pháp lý vì cha đã mất. Ngày 03/01/2014, Cục Hộ tịch, quốc tịch, chứng thực - Bộ Tư pháp ban hành Công văn số 35/HTQTCT-HT, hướng dẫn phường Hoàng Liệt, quận Hoàng Mai vận dụng quy định pháp luật để ghi tên cả cha và mẹ cho hai bé trong giấy khai sinh.
+
+Quyền riêng tư và bảo mật dữ liệu y tế trong kỹ thuật hỗ trợ sinh sản (IVF) là vấn đề pháp lý quan trọng cần được bảo vệ.
+	•	Quyền riêng tư, bảo mật dữ liệu y tế trong IVF cần được pháp luật bảo vệ.
+	•	Thông tin cá nhân, hồ sơ bệnh án chỉ được tiết lộ khi có sự đồng ý hoặc theo yêu cầu cơ quan có thẩm quyền.
+	•	Một số cơ sở y tế vẫn lỏng lẻo trong bảo mật, tiềm ẩn nguy cơ rò rỉ thông tin.
+	•	Cần hoàn thiện pháp luật, quy trình bảo mật và nâng cao ý thức của nhân viên y tế.`,
     position: 75,
   },
   {
