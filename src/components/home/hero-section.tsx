@@ -2,8 +2,10 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from '@/hooks/useTranslation';
 
 export const HeroSection = () => {
+  const { t } = useTranslation();
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -50,7 +52,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="handwritten text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-[#5f635e]"
             >
-              Quyền thừa kế của cá nhân sinh ra từ kĩ thuật Thụ tinh ống nghiệm IVF ở Việt Nam
+              {t('heroTitle')}
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -58,11 +60,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-lg mb-8 text-[#5f635e] text-justify"
             >
-              Tại Việt Nam, pháp luật về thụ tinh trong ống nghiệm (IVF) được
-              quy định chủ yếu trong Hiến pháp 2013, Luật Hôn nhân và Gia đình
-              2015, Nghị định 10/2015/NĐ-CP (sửa đổi bởi Nghị định
-              98/2016/NĐ-CP), cùng với các quy định về thừa kế trong Bộ luật Dân
-              sự 2015.
+              {t('heroDescription')}
             </motion.p>
           </motion.div>
 

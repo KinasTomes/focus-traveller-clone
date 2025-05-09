@@ -3,9 +3,12 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { FlagButton } from '@/components/ui/FlagButton';
+import { useTranslation } from '@/hooks/useTranslation';
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -35,25 +38,26 @@ export const Navbar = () => {
         </button>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex items-center space-x-8">
           <Link
             href="/"
             className="text-foreground hover:text-primary transition-colors duration-200"
           >
-            About
+            {t('about')}
           </Link>
           <Link
             href="/travel"
             className="text-foreground hover:text-primary transition-colors duration-200"
           >
-            Travel
+            {t('travel')}
           </Link>
           <Link
             href="/questions"
             className="text-foreground hover:text-primary transition-colors duration-200"
           >
-            Test
+            {t('test')}
           </Link>
+          <FlagButton />
         </nav>
 
         {/* Mobile Navigation Menu */}
@@ -65,22 +69,25 @@ export const Navbar = () => {
                 className="text-foreground hover:text-primary transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                {t('about')}
               </Link>
               <Link
                 href="/travel"
                 className="text-foreground hover:text-primary transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Travel
+                {t('travel')}
               </Link>
               <Link
                 href="/questions"
                 className="text-foreground hover:text-primary transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Test
+                {t('test')}
               </Link>
+              <div className="flex justify-center">
+                <FlagButton />
+              </div>
             </div>
           </div>
         )}
