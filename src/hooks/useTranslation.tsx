@@ -18,7 +18,7 @@ const translations: Translations = {
     en: 'About'
   },
   travel: {
-    vi: 'Du lịch',
+    vi: 'Hành trình',
     en: 'Travel'
   },
   test: {
@@ -297,8 +297,8 @@ Add strict sanctions:
     en: 'View Results'
   },
   congratulations: {
-    vi: 'Chúc mừng bạn đã hoàn thành!',
-    en: 'Congratulations on completing!'
+    vi: 'Chúc mừng nhà thám hiểm đã vượt qua thử thách!',
+    en: 'Congratulations on completing the challenge!'
   },
   yourScore: {
     vi: 'Điểm số của bạn',
@@ -317,8 +317,8 @@ Add strict sanctions:
     en: 'Keep learning more about inheritance rights for children born through IVF!'
   },
   viewDetails: {
-    vi: 'Xem thông tin chi tiết',
-    en: 'View Detailed Information'
+    vi: 'Bấm vào đây nhé!',
+    en: 'Click here!'
   },
   // Test Questions
   question1: {

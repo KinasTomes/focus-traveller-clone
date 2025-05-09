@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { PageLayout } from '@/components/layout/page-layout';
 import Link from 'next/link';
 import { useTranslation } from '@/hooks/useTranslation';
+import Image from 'next/image';
 
 interface Question {
   questionKey: string;
@@ -99,9 +100,17 @@ export default function QuestionsPage() {
 
   return (
     <PageLayout>
-      <div className="min-h-screen bg-[#faf3eb] relative overflow-hidden">
-        {/* Background elements */}
-        <div className="absolute inset-0 bg-[url('/images/travel-bg.svg')] bg-cover opacity-20" />
+      <div className="min-h-screen relative overflow-hidden">
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/test-bg.png"
+            alt="Background"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         
         <div className="container-flex py-12 relative z-10 max-w-[90%] mx-auto">
           {!quizCompleted ? (
@@ -166,7 +175,7 @@ export default function QuestionsPage() {
                     >
                       <button
                         onClick={handleNextQuestion}
-                        className="w-full py-3 bg-[#5f635e] text-white rounded-lg font-semibold hover:bg-[#4a4d48] transition-colors"
+                        className="w-full py-3 bg-[#b49656] text-white rounded-lg font-semibold hover:bg-[#866a43] transition-colors"
                       >
                         {currentQuestionIndex < QUESTIONS.length - 1 ? t('nextQuestion') : t('viewResults')}
                       </button>
@@ -196,7 +205,7 @@ export default function QuestionsPage() {
               </div>
               <Link 
                 href="/info"
-                className="inline-block mt-6 px-6 py-3 bg-[#5f635e] text-white rounded-lg font-semibold hover:bg-[#4a4d48] transition-colors"
+                className="inline-block mt-6 px-6 py-3 bg-[#b49656] text-white rounded-lg font-semibold hover:bg-[#866a43] transition-colors"
               >
                 {t('viewDetails')}
               </Link>

@@ -3,6 +3,7 @@
 import { PageLayout } from '@/components/layout/page-layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from '@/hooks/useTranslation';
+import { ChatBox } from '@/components/chat/chat-box';
 
 export default function InfoPage() {
   const { t } = useTranslation();
@@ -34,6 +35,7 @@ export default function InfoPage() {
             </div>
           </motion.div>
         </div>
+        <ChatBox />
       </div>
     </PageLayout>
   );

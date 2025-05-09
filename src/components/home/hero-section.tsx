@@ -64,7 +64,7 @@ export const HeroSection = () => {
             </motion.p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
@@ -73,10 +73,16 @@ export const HeroSection = () => {
             <div className="phone-horizontal-container scale-150">
               <div className="phone-frame">
                 <div className="phone-screen">
-                  <img
-                    src="/images/phone.png"
-                    alt="Phone Screen"
-                    className="w-full h-full object-cover"
+                  <video
+                    ref={videoRef}
+                    src="/images/video.mp4"
+                    className="video-content w-full h-full object-cover"
+                    loop
+                    muted
+                    playsInline
+                    autoPlay
+                    onLoadedData={handleVideoLoaded}
+                    style={{ backgroundColor: 'transparent' }}
                   />
                 </div>
               </div>
